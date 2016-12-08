@@ -1,0 +1,17 @@
+<web-app>
+	<display-name>FirstMvc</display-name>
+	<welcome-file-list>
+	<welcome-file>index.jsp</welcome-file>
+	
+	</welcome-file-list>
+	<servlet>
+	<description></description>
+	<display-name>LoginController</display-name>
+	<servlet-name>LoginController</servlet-name>
+	<servlet-class>com.controller.Logincontroller</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginController</servlet-name>
+		<url-pattern>LoginController</url-pattern>
+	</servlet-mapping>
+</web-app>
